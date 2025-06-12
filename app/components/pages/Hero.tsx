@@ -12,15 +12,24 @@ export default function Hero() {
         <div>
           <nav className='absolute'>
             <ul>
-              <li className='pl-8 pt-14 text-amber-200 font-bold'>
+              <div className='flex pt-12'>
+                <div className='h-12 w-12 bg-black'></div>
+              <li className= "pl-1 text-amber-200 font-bold">
                 Explore
               </li>
-              <li className='pl-8 pt-3 text-amber-200 font-bold'>
+              </div>
+               <div className='flex'>
+                <div className='h-12 w-12 bg-black'></div>
+              <li className='pl-1 pt-3 text-amber-200 font-bold'>
                 Templates
               </li>
-              <li className='pl-8 pt-3 text-amber-200 font-bold'>
+              </div>
+              <div className='flex'>
+                <div className='h-12 w-12 bg-black'></div>
+                <li className='pl-1 pt-3 text-amber-200 font-bold flex'>
                 Components
               </li>
+              </div>
             </ul>
           </nav>
         </div>
